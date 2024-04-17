@@ -7,6 +7,7 @@ import BarIcon from '../../assets/icons/bar-chart.svg'
 import CertificateIcon from '../../assets/icons/certificate.svg'
 import DesktopIcon from '../../assets/icons/desktop.svg'
 
+
 const Hero = () => {
     return (
         <>
@@ -14,7 +15,7 @@ const Hero = () => {
                 <section className="hero">
                     <nav className="navbar">
                         <div className="navbar__container container">
-                            <a className="navbar__logo" href="#" title='Ir a Inicio'>
+                            <a className="navbar__logo" href="#">
                                 <img src={Logo} alt="Logo EDC Creative" />
                             </a>
                             <div className="navbar__buttons">
@@ -40,10 +41,9 @@ const Hero = () => {
                     <section className="hero__content container">
                         <div className="hero__texts">
                             <h1 className="title hero__title">
-                                <span className="title-white">CONVIÉRTETE EN EL</span>
-                                <span className="title-yellow">MEJOR DISEÑADOR</span>
+                                <span className="title-white">CONVIÉRTETE EN UN DISEÑADOR DE </span>
+                                <span className="title-yellow">PRIMER NIVEL</span>
                             </h1>
-                            <h2 className="subtitle hero__subtitle">ES HORA DE EVOLUCIONAR</h2>
                             <p className="hero__paragraph">
                                 Conoce y aprende todos mis métodos y técnicas para crear flyers
                                 avanzados en <span className="bold">Photoshop</span> y animaciones en{" "}
@@ -69,21 +69,21 @@ const Hero = () => {
                     <footer className="hero__footer">
                         <div className="hero__footer-container container">
                             <div className="hero__info">
-                                <img src={CertificateIcon} alt="Icon certificate" />
+                                <img src={BarIcon} alt="Icon certificate" />
                                 <div className="hero__info-title">
                                     <span className="small">Certificado</span>
                                     <span>Digital</span>
                                 </div>
                             </div>
                             <div className="hero__info">
-                                <img src={DesktopIcon} alt="Icon desktop" />
+                                <img src={CertificateIcon} alt="Icon desktop" />
                                 <div className="hero__info-title">
                                     <span className="small">Aula</span>
                                     <span>Virtual</span>
                                 </div>
                             </div>
                             <div className="hero__info">
-                                <img src={BarIcon} alt="Icon bar chart" />
+                                <img src={DesktopIcon} alt="Icon bar chart" />
                                 <div className="hero__info-title">
                                     <span className="small">Equilibrado</span>
                                     <span>por Niveles</span>
@@ -93,6 +93,7 @@ const Hero = () => {
                     </footer>
                 </section>
             </section>
+
         </>
     )
 }
