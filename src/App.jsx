@@ -5,6 +5,7 @@ import BenefitOne from "./components/BenefitOne/BenefitOne"
 import BenefitTwo from "./components/BenefitTwo/BenefitTwo"
 import BenefitThree from "./components/BenefitThree/BenefitThree"
 import BenefitFour from "./components/BenefitFour/BenefitFour"
+import Footer from "./components/Footer/Footer" 
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <BenefitTwo />
       <BenefitThree />
       <BenefitFour />
+      <Footer/>
     </>
   )
 }
