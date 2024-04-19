@@ -59,7 +59,7 @@ const Navbar = () => {
                     <nav className="nav">
                         <div className="navbar">
                             <div className="navbar__container container">
-                                <a className="navbar__logo" href="#">
+                                <a className="navbar__logo" href="#hero">
                                     <img src={Logo} alt="Logo EDC Creative" />
                                 </a>
                                 <div className="navbar__buttons">
@@ -83,7 +83,7 @@ const Navbar = () => {
                                         </svg>
                                         Iniciar Sesión
                                     </a>
-                                    <a className="btn btn__primary btn__primary--navbar" href="#">
+                                    <a className="btn btn__primary btn__primary--navbar" href="#payment">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={25}

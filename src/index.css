@@ -414,19 +414,19 @@ p {
 
 /* SECTIONS TO LEARN */
 .section-three {
-  background-image: url("../assets/img/3.webp");
+  background-image: url("./assets/images/5.webp");
 }
 
 .section-four {
-  background-image: url("../assets/img/4.webp");
+  background-image: url("./assets/images/6.webp");
 }
 
 .section-five {
-  background-image: url("../assets/img/5.webp");
+  background-image: url("./assets/images/7.webp");
 }
 
 .section-six {
-  background-image: url("../assets/img/6.webp");
+  background-image: url("./assets/images/8.webp");
 }
 
 .section-three,
@@ -474,7 +474,7 @@ p {
 
 /* SECTION CREATIVITY - SLIDER */
 .section-seven {
-  background-image: url("../assets/img/7.webp");
+  background-image: url("./assets/images/3.webp");
 }
 
 .creativity {
@@ -562,7 +562,7 @@ p {
 
 /* SECTION MANAGED - SECTION EIGHT */
 .section-eight {
-  background-image: url("../assets/img/8.webp");
+  background-image: url("./assets/images/4.webp");
 }
 
 .managed {
@@ -623,7 +623,7 @@ p {
 
 /* SECTION PRICING - NINE */
 .section-nine {
-  background-image: url("../assets/img/9.webp");
+  background-image: url("./assets/images//FONDO-COMO-ADQUIRIR-EL-CURSO-V1.webp");
 }
 
 .pricing {
@@ -765,7 +765,7 @@ p {
 
 /* SECTION FAQ - TEN */
 .section-ten {
-  background-image: url("../assets/img/10.webp");
+  background-image: url("./assets/images/FONDO-PARA-PREGUNTAS-Y-RESPUESTAS.webp");
 }
 
 .faq {
@@ -827,15 +827,8 @@ p {
 /* SECTION ABOUT ME - ELEVEN */
 .section-eleven {
   position: relative;
-  background-image: url("../assets/img/12.webp");
+  background-image: url("./assets/images/9.webp");
 
-  &::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-color: var(--purple);
-    opacity: .3;
-  }
 }
 
 .about-me {
@@ -1015,3 +1008,28 @@ p {
     justify-content: flex-start;
   }
 }
+
+.arrow svg{
+  position: fixed;
+  bottom: 100px;
+  right: 60px;
+  z-index: 100;
+}
+
+.swiper{
+  padding: 2.25rem 0;
+}
+.swiper-pagination-bullet {
+  height: .75rem;
+  width: .75rem;
+  display: inline-block;
+  border: 2px solid var(--rose);
+  opacity: 100;
+}
+
+.swiper-pagination-bullet-active {
+  height: .75rem;
+  width: .75rem;
+  background: var(--rose);
+}
+

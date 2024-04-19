@@ -7,7 +7,7 @@ import DesktopIcon from '../../assets/icons/desktop.svg'
 const Hero = () => {
     return (
         <>
-            <section className="section section-one">
+            <section className="section section-one" id='hero'>
                 <section className="hero">
                     <section className="hero__content container">
                         <div className="hero__texts">
