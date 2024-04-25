@@ -14,18 +14,14 @@ const Benefits = () => {
                             />
                         </figure>
                         <ul className="about__list about__list--one">
-                            <li className="about__item">Asesorías personalizadas</li>
-                            <li className="about__item">
-                                Optimización de programas para un mejor flujo de trabajo
-                            </li>
-                            <li className="about__item">Tips para comenzar un trabajo</li>
+                          <li className="about__item about__item--one">Asesorías personalizadas</li>
+                          <li className="about__item about__item--one">Optimización de programas para un mejor flujo de trabajo</li>
+                          <li className="about__item about__item--one">Tips para comenzar un trabajo</li>
                         </ul>
                         <ul className="about__list about__list--two">
-                            <li className="about__item">Todas las Clases grabadas</li>
-                            <li className="about__item">Retoque digital para artistas y Djs</li>
-                            <li className="about__item">
-                                Búsqueda de recursos y material para contenido
-                            </li>
+                          <li className="about__item about__item--two">Todas las Clases grabadas</li>
+                          <li className="about__item about__item--two">Retoque digital para artistas y Djs</li>
+                          <li className="about__item about__item--two">Búsqueda de recursos y material para contenido</li>
                         </ul>
                     </div>
                     <h3 className="title">

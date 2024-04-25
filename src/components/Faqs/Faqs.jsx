@@ -9,7 +9,7 @@ const Faqs = () => {
                         <span className="title-yellow">FRECUENTES</span>
                     </h4>
                     <div className="faq-content">
-                        <details className="faq__details">
+                        <details className="faq__details" name="question">
                             <summary className="faq__title">¿Por qué inscribirme al Curso?</summary>
                             <p className="faq__answer">
                                 Aprenderás técnicas avanzadas que te permitirán crear trabajos
@@ -18,7 +18,7 @@ const Faqs = () => {
                                 desde artistas hasta eventos y empresas en redes sociales.
                             </p>
                         </details>
-                        <details className="faq__details">
+                        <details className="faq__details" name="question">
                             <summary className="faq__title">¿Cómo iniciar sesión?</summary>
                             <p className="faq__answer">
                                 Aprenderás técnicas avanzadas que te permitirán crear trabajos
@@ -27,7 +27,7 @@ const Faqs = () => {
                                 desde artistas hasta eventos y empresas en redes sociales.
                             </p>
                         </details>
-                        <details className="faq__details">
+                        <details className="faq__details" name="question">
                             <summary className="faq__title">¿Qué tiempo dura el curso?</summary>
                             <p className="faq__answer">
                                 Aprenderás técnicas avanzadas que te permitirán crear trabajos
@@ -36,7 +36,7 @@ const Faqs = () => {
                                 desde artistas hasta eventos y empresas en redes sociales.
                             </p>
                         </details>
-                        <details className="faq__details">
+                        <details className="faq__details" name="question">
                             <summary className="faq__title">¿Cómo es la certificación?</summary>
                             <p className="faq__answer">
                                 Aprenderás técnicas avanzadas que te permitirán crear trabajos
@@ -45,7 +45,7 @@ const Faqs = () => {
                                 desde artistas hasta eventos y empresas en redes sociales.
                             </p>
                         </details>
-                        <details className="faq__details">
+                        <details className="faq__details" name="question">
                             <summary className="faq__title">¿Cómo me contacto con soporte?</summary>
                             <p className="faq__answer">
                                 Aprenderás técnicas avanzadas que te permitirán crear trabajos

@@ -22,7 +22,7 @@ const Hero = () => {
                             </p>
                         </div>
                         <div className="hero__buttons">
-                            <a className="btn btn__primary btn__primary--hero" href="#">
+                            <a className="btn btn__primary btn__primary--hero" href="#payment">
                                 Incríbete aquí
                             </a>
                             <a className="btn btn__secondary btn__secondary--hero" href="#">
