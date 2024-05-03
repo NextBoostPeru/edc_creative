@@ -5,19 +5,19 @@ const CourseAudience = () => {
             <section className="section section-eight">
                 <section className="managed container">
                     <div className="managed__content">
-                        <h4 className="title title-managed">
+                        <h4 className="title title-managed fade-in-right">
                             <span className="title-white title-white-managed">¿A QUIÉN VA</span>
                             <span className="title-yellow">DIRIGIDO ESTE</span>
                             <span className="title-yellow">CURSO?</span>
                         </h4>
-                        <p className="managed__paragraph">
+                        <p className="managed__paragraph fade-in-right">
                             El curso EDC está dirigido para diseñadores que deseen llevar sus
                             diseños a nuevas alturas para crear trabajos exclusivos y de alta
                             calidad. A través de este curso, aprenderás a dominar las técnicas
                             necesarias para destacar en el mercado de Flyers y Motion, tanto para
                             artistas, eventos como para redes sociales.
                         </p>
-                        <div className="managed__cards">
+                        <div className="managed__cards fade-in-bottom">
                             <div className="managed__card">
                                 <img
                                     src={CircleCheckIcon}

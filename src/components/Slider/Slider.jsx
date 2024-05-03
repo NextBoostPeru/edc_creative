@@ -153,11 +153,11 @@ const Slider = () => {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <article className="slider__card">
-                                    <span className="slider__title">Domina After Effects y Adobe Premiere</span>
+                                    <span className="slider__title">Domina After Effects</span>
                                     <ul className="slider__list">
                                         <li className="slider__item">
                                             <img src={CheckIcon} alt="Icon check" loading="lazy" />
-                                            Exportación y compresor de video con after effects y premiere
+                                            Exportación y compresor de video con After Effects y Adobe Premiere
                                         </li>
                                         <li className="slider__item">
                                             <img src={CheckIcon} alt="Icon check" loading="lazy" />

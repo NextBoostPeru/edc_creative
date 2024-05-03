@@ -11,17 +11,17 @@ const Hero = () => {
                 <section className="hero">
                     <section className="hero__content container">
                         <div className="hero__texts">
-                            <h1 className="title hero__title">
+                            <h1 className="title hero__title fade-in-fwd">
                                 <span className="title-white">CONVIÉRTETE EN UN DISEÑADOR DE </span><br />
                                 <span className="title-yellow">PRIMER NIVEL</span>
                             </h1>
-                            <p className="hero__paragraph">
+                            <p className="hero__paragraph fade-in-bottom">
                                 Conoce y aprende todos mis métodos y técnicas para crear flyers
                                 avanzados en <span className="bold">Photoshop</span> y animaciones en{" "}
                                 <span className="bold">After Effects</span> para fiestas.
                             </p>
                         </div>
-                        <div className="hero__buttons">
+                        <div className="hero__buttons fade-in-bottom">
                             <a className="btn btn__primary btn__primary--hero" href="#payment">
                                 Incríbete aquí
                             </a>
@@ -44,7 +44,7 @@ const Hero = () => {
                                 Ver Demo
                             </a>
                         </div>
-                        <figure className="hero__figure">
+                        <figure className="hero__figure fade-in-bottom">
                             <img
                                 src={AdobeIcon}
                                 alt="Icon photoshop and after effects"

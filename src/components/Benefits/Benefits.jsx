@@ -5,8 +5,8 @@ const Benefits = () => {
         <>
             <section className="section section-two">
                 <section className="about container">
-                    <div className="about-pro">
-                        <figure className="about__figure">
+                    <div className="about-pro fade-in-top">
+                        <figure className="about__figure ">
                             <img
                                 src={ImageLaptop}
                                 alt="About the class"
@@ -14,22 +14,22 @@ const Benefits = () => {
                             />
                         </figure>
                         <ul className="about__list about__list--one">
-                          <li className="about__item about__item--one">Asesorías personalizadas</li>
-                          <li className="about__item about__item--one">Optimización de programas para un mejor flujo de trabajo</li>
-                          <li className="about__item about__item--one">Tips para comenzar un trabajo</li>
+                            <li className="about__item about__item--one">Asesorías personalizadas</li>
+                            <li className="about__item about__item--one">Optimización de programas para un mejor flujo de trabajo</li>
+                            <li className="about__item about__item--one">Tips para comenzar un trabajo</li>
                         </ul>
                         <ul className="about__list about__list--two">
-                          <li className="about__item about__item--two">Todas las Clases grabadas</li>
-                          <li className="about__item about__item--two">Retoque digital para artistas y Djs</li>
-                          <li className="about__item about__item--two">Búsqueda de recursos y material para contenido</li>
+                            <li className="about__item about__item--two">Todas las Clases grabadas</li>
+                            <li className="about__item about__item--two">Retoque digital para artistas y Djs</li>
+                            <li className="about__item about__item--two">Búsqueda de recursos y material para contenido</li>
                         </ul>
                     </div>
-                    <h3 className="title">
+                    <h3 className="title fade-in-bottom">
                         <span className="title-white">¡ESO NO ES TODO! </span>
                         <br />
                         <span className="title-yellow">TAMBIÉN APRENDERÁS</span>
                     </h3>
-                    <a className="about__scroll" href="#paso-a-paso">
+                    <a className="about__scroll fade-in-bottom" href="#paso-a-paso">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={32}

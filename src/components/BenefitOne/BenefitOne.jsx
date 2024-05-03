@@ -3,7 +3,7 @@ const BenefitOne = () => {
     return (
         <>
             <section className="section section-three">
-                <section className="to-learn container">
+                <section className="to-learn container fade-in-left">
                     <h3 className="title title-to-learn">
                         <span className="title-white">PASO A</span>
                         <span className="title-yellow">PASO</span>

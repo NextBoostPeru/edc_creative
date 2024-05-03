@@ -8,7 +8,7 @@ const BenefitFive = () => {
         <>
             <section className="section section-seven">
                 <section className="creativity container">
-                    <h4 className="title title-creativity">
+                    <h4 className="title title-creativity fade-in-top">
                         <span className="title-white title-white-creativity">DESPIERTA TU CREATIVIDAD</span>
                         <span className="title-yellow">ESTE 2024 ES TUYO</span>
                     </h4>

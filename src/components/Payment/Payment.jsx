@@ -42,16 +42,16 @@ const Payment = () => {
             <section className="section section-nine" id="payment">
                 <section className="pricing container">
                     <div className="pricing__content">
-                        <h4 className="title title-pricing">
+                        <h4 className="title title-pricing fade-in-left">
                             <span className="title-white title-white-pricing">¿CÓMO ADQUIRIR</span>
                             <span className="title-yellow">EL CURSO?</span>
                         </h4>
-                        <p className="pricing__paragraph">
+                        <p className="pricing__paragraph fade-in-left">
                             Elija su forma de pago: un solo pago o pago mensual. Puede pagar con su cuenta de Mercado
                             Pago o seleccionar la opción sin cuenta e ingresar sus datos de pago. Confirme el pago y
                             recibirá una notificación de confirmación.
                         </p>
-                        <div className="pricing__info">
+                        <div className="pricing__info fade-in-bottom">
                             <div className="pricing__info-content">
                                 <span className="pricing__info-icon">
                                     <img
@@ -80,7 +80,7 @@ const Payment = () => {
                             </div>
                         </div>
                     </div>
-                    <article className="pricing__card">
+                    <article className="pricing__card fade-in-right">
                         <img
                             className="pricing__card-logo"
                             src={Logo}
